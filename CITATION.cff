@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the following works when using this software."
+type: software
+authors:
+- family-names: "Higgins"
+  given-names: "Andrew"
+  affiliation: "Los Alamos National Laboratories, Los Alamos, New Mexico, USA"
+- family-names: "Reed"
+  given-names: "Logan"
+  affiliation: "Temple University, Philadelphia, Pennsylvania, USA"
+- family-names: "Szyld"
+  given-names: "Daniel"
+  affiliation: "Temple University, Philadelphia, Pennsylvania, USA"
+title: "Near-Optimal Convergence of Widlund's Method and Numerical Exploration of Different Implementations"
+version: 1.0
+url: "https://github.com/LoganOReed/WidlundImplementations"
+license: "GPL 3.0"
