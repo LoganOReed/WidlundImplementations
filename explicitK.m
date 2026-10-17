@@ -30,7 +30,6 @@ function [x, iter] = explicitK(A, H, S, b, Hsolve, tol, maxit)
     w = 1 / a;
 
     xnext = (1 - w) * xprev + w * x + w * v;
-    r     = b - A * xnext;
     vnext = -w * Hsolve(S * v) + (1 - w) * vprev;
 
     aprev = a;
