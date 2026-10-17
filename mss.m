@@ -1,4 +1,4 @@
-function [x, iter] = cgwMSS(A, H, S, b, Hsolve, tol, maxit)
+function [x, iter] = mss(A, H, S, b, Hsolve, tol, maxit)
 
   n = numel(b);
 
